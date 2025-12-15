@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="About-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>About US</title>
+</head>
+<body>
+ <section>
+ <div class="header-section">
+
+<nav class="nav-list">
+    <h1 class="hura-text">HURA</h1>
+   
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+
+     <div id="mobile-menu" class="mobile-menu">
+    <div class="close-icon" onclick="toggleMenu()">&#10006;</div>
+  
+<ul>
+    
+  <a href="index.html"><li class="content">HOME</li></a>
+   
+    <a href="Business.html"><li class="content">BUSINESS PLAN</li></a>
+    <a href="Residential.html"><li class="content">RESIDENTIAL PLAN</li></a>
+   <a href="Gaming.html"><li class="content">GAMING PLAN</li></a> 
+    <a href="Hotel.html"><li class="content">HOTEL PLAN</li></a>
+      <a href="Coverage.html"><li class="content">COVERAGE</li></a>
+</ul>
+  </nav>
+
+
+
+
+ <div class="about-section">
+    <h1>About Us</h1>
+ </div>
+</div>
+
+</section>
+<section class="section">
+
+<div class="about-header">
+<div class="about-text">
+    <h4>ABOUT <span class="price-header-text">OUR FIRM</span></h4>
+   <p class="about-text-p">Hura Unlimited Internet is a modern, high-speed internet service designed to give homes and businesses reliable, seamless, and truly unlimited connectivity. Built with advanced network technology, Hura delivers stable browsing, ultra-fast downloads, smooth streaming, and lag-free online gaming — without data caps, throttling, or hidden limits.</p>
+    <p class="about-text-p2">Our goal is to make premium internet accessible, affordable, and available to everyone, no matter where they live or work.</p> 
+</div>
+
+    <div class="about-image"><img src="About-image/hura-ab-server33.jpg" alt=""></div>
+</div>
+
+<div class="version-section">
+    <div class="version-img">
+<img src="About-image/Hura_Radio-removebg-preview.png" alt="">
+
+    </div>
+    <div class="version-text">
+        <h2>OUR <span class="price-header-text">VERSION</span></h2>
+        <p>To become the most trusted and reliable internet provider in Africa by delivering fast, reliable, and unlimited connectivity that empowers people, boosts productivity, and transforms digital experiences.</p>
+    </div>
+</div>
+
+<div class="mission-header">
+    <div class="mission-text">
+    <h2>OUR <span class="price-header-text">MISSION</span></h2>
+<ul>
+    <li>To provide truly unlimited data with no restrictions or slowdowns.</li>
+     <li>To deliver ultra-fast internet speeds for both personal and business use.</li>
+      <li>To offer 24/7 customer support that responds quickly and solves problems.</li>
+       <li>To expand coverage so every customer can enjoy stable connectivity anywhere.</li>
+        <li>To continuously innovate and improve our technology for a better online experience.</li>
+</ul>
+    </div>
+
+    <div class="mission-img">
+      <img src="About-image/hura-ab-servers.jpg">  
+    </div>
+</div>
+
+</section>
+
+<footer>
+  <div class="main">
+  <div class="footer-header">
+  <div class="main-footer">
+    <h5>HURA BROADBAND</h5>
+    <p>Truly Unlimited Internet At Your Reach.</p>
+
+    <i class="fa-brands fa-facebook-f"></i>
+<i class="fa-brands fa-whatsapp"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-twitter"></i>
+  </div>
+
+  <div class="footer-link">
+    <h5>Links</h5>
+    <a href="Residential.html"><p>- Plans</p></a>
+   <a href="Termservice.html"><p>- Terms of service</p></a>
+  </div>
+
+  <div class="contact-footer">
+    <h5>Contact Us</h5>
+    <p>Phone: 08035131201</p>
+    <p>Whatsapp: +2348030767523</p>
+    <p>Email: huraboardband@gmail.com</p>
+  </div>
+
+  <div>
+    <h5>Our Working Hour</h5>
+  <p>Monday-Friday: 9:00am</p>
+
+  <p>Saturday:11:00am</p>
+</div>
+
+<div>
+  <h5>Address</h5>
+  <address>
+  56 Okporo Street-Port Harcourt
+
+</address></div>
+
+
+  </div>
+<div class="last-section">
+  All Right Reserved  <span class="year"></span> by Hura BoardBand
+</div>
+  </div>
+</footer>
+
+<script>
+      function toggleMenu() {
+    const menu = document.getElementById("mobile-menu");
+    menu.classList.toggle("show");
+  }
+
+   const yearly = document.querySelector('.year');
+  let years = new Date().getFullYear()
+  yearly.innerText = years
+</script>
+</body>
+</html>

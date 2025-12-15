@@ -1,0 +1,30 @@
+  body{
+  background-color: rgb(236, 231, 231);
+}
+
+.termservice-header{
+  font-family: 'Times New Roman', Times, serif;
+
+  border: 1px #f80 solid;
+}
+.termservice-header h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+      margin-left: 0px;
+      text-transform: uppercase;
+}
+.termservice-header h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+      margin-left: 6px;
+}
+.termservice-header p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+      margin-left: 14px;
+}
+.termservice-header h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+      margin-left: 6px;
+}
