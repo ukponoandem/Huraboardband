@@ -191,7 +191,10 @@ address{
   font-size: 0.3rem;
   text-align: center;
 }
-
+.content{
+    font-size: 20px;
+    margin-top: 15px;
+}
 .footer-header{
   flex-direction: column;
   gap: 10px;
@@ -269,7 +272,10 @@ address{
 .hura-text{
     font-size: 20px;
   }
-
+.content{
+    font-size: 20px;
+    margin-top: 15px;
+}
 .footer-header{
   flex-direction: column;
   gap: 10px;
@@ -343,7 +349,10 @@ address{
   text-align: center;
 }
 
-
+.content{
+    font-size: 20px;
+    margin-top: 15px;
+}
 .footer-header{
   flex-direction: column;
   gap: 10px;
@@ -422,6 +431,11 @@ address{
 .hura-text{
     font-size: 20px;
   }
+
+
+}.content{
+    font-size: 20px;
+    margin-top: 15px;
 }
 
 @media (max-width:320px){
@@ -444,6 +458,10 @@ address{
  .hura-text{
     font-size: 18px;
   }
+.content{
+    font-size: 20px;
+    margin-top: 15px;
+}
 
   .menu-icon {
     font-size: 20px;
