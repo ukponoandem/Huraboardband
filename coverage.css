@@ -65,8 +65,8 @@ list-style-type: none;
 }
 
 .map-container {
-  width: 100%;
-  max-width: 1200px; 
+  width: 99%;
+  max-width: 1000px; 
   height: 500px;
   margin: 0 auto;
   border-radius: 10px;
@@ -80,7 +80,6 @@ list-style-type: none;
   border: 0;
   display: block;
 }
-
 .main{
 background-color: #000;
 text-align: center;
@@ -95,7 +94,7 @@ margin-top: 20px;
 
 }
 .footer-header h5{
-margin-top: 10px;
+  margin-top: 10px;
 color: #f80;
 font-family: 'Times New Roman', Times, serif;
 font-size: 19px;
@@ -206,7 +205,7 @@ text-align: center;
 
 }
 .footer-header h5{
-margin-top: 10px;
+margin-top: 5px;
 color: #f80;
 font-family: 'Times New Roman', Times, serif;
 font-size: 17px;
@@ -264,7 +263,7 @@ text-align: center;
 
 }
 .footer-header h5{
-margin-top: 10px;
+margin-top: 5px;
 color: #f80;
 font-family: 'Times New Roman', Times, serif;
 font-size: 17px;
@@ -317,9 +316,19 @@ address{
     font-size: 20px;
   }
   
+.close-icon {
+    display: block; 
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.content{
+    font-size: 20px;
+    margin-top: 15px;
+}
 .footer-header{
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .main{
@@ -332,6 +341,7 @@ margin-top: 10px;
 color: #f80;
 font-family: 'Times New Roman', Times, serif;
 font-size: 17px;
+margin-bottom: 10px;
 
 }
 .footer-header p{
@@ -347,6 +357,7 @@ font-size: 17px;
   color: #f80;
   border-radius: 50px;
   font-size: 12px;
+  margin-top: 5px;
 }
 .footer-link a{
   text-decoration: none;
@@ -366,6 +377,6 @@ address{
   font-size: 13px;
   font-family: 'Times New Roman', Times, serif;
   color: aliceblue;
-  margin-top: 0%;
+  margin-top: 5%;
 }
 }

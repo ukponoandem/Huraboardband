@@ -118,6 +118,10 @@ address{
     font-size: 28px;
     margin-bottom: 20px;
 }
+.content{
+    font-size: 20px;
+    margin-top: 15px;
+}
 }
 @media (max-width:690px){
 .business-plan{
@@ -211,7 +215,10 @@ address{
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
-
+.content{
+    font-size: 20px;
+    margin-top: 15px;
+}
 }
 @media (max-width:320px){
 .business-plan{
@@ -230,8 +237,15 @@ address{
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
-
-
+.close-icon {
+    display: block; 
+    font-size: 22px;
+  
+}
+.content{
+    font-size: 20px;
+    margin-top: 15px;
+}
 .footer-header{
   flex-direction: column;
   gap: 10px;

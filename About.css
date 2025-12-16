@@ -172,7 +172,7 @@ flex-wrap: wrap;
 .main{
 background-color: #000;
 text-align: center;
-margin-top: 20px;
+padding-top: 20px;
 }
 .footer-header{
   display: flex;
@@ -180,7 +180,6 @@ margin-top: 20px;
   justify-content: center;
   align-items: stretch;
   gap: 50px;
- max-height:30vh; 
 }
 .footer-header h5{
   margin-top: 10px;
