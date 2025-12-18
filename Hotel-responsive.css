@@ -186,6 +186,12 @@ address{
   justify-content: center;
 }
 
+ .hura-text{
+    color: #f80;
+    font-size: 15px;
+    left: 5px;
+  }
+
 .hotel-plan {
   color: white;
   font-size: 0.3rem;
@@ -269,8 +275,10 @@ address{
   .menu-icon {
     font-size: 20px;
 }
-.hura-text{
-    font-size: 20px;
+ .hura-text{
+    color: #f80;
+    font-size: 15px;
+    left: 5px;
   }
 .content{
     font-size: 20px;
@@ -428,8 +436,10 @@ address{
   .menu-icon {
     font-size: 20px;
 }
-.hura-text{
-    font-size: 20px;
+ .hura-text{
+    color: #f80;
+    font-size: 15px;
+    left: 5px;
   }
 
 
@@ -456,7 +466,9 @@ address{
   text-align: center;
 }
  .hura-text{
-    font-size: 18px;
+    color: #f80;
+    font-size: 15px;
+    left: 5px;
   }
 .content{
     font-size: 20px;

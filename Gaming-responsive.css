@@ -122,6 +122,12 @@ address{
     font-size: 20px;
     margin-top: 15px;
 }
+
+ .hura-text{
+    color: #f80;
+    font-size: 15px;
+    left: 5px;
+  }
 }
 @media (max-width:690px){
 .business-plan{
@@ -219,6 +225,12 @@ address{
     font-size: 20px;
     margin-top: 15px;
 }
+ .hura-text{
+    color: #f80;
+    font-size: 15px;
+    left: 5px;
+  }
+
 }
 @media (max-width:320px){
 .business-plan{
@@ -250,6 +262,12 @@ address{
   flex-direction: column;
   gap: 10px;
 }
+
+ .hura-text{
+    color: #f80;
+    font-size: 15px;
+    left: 5px;
+  }
 
 .main{
 background-color: #000;
@@ -425,8 +443,8 @@ address{
 }
  .hura-text{
     color: #f80;
-    font-size: 18px;
-    position: fixed;
+    font-size: 15px;
+    left: 5px;
   }
 
 .footer-header{
